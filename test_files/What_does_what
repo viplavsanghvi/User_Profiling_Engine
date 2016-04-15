@@ -1,0 +1,23 @@
+analyse_popular_items.py - Gives a CSV file that contain the item and its purchase count. File name - popular_item_feature.csv
+analyse_sessions.py - Gives count of sessions in clicks and buys dataset.
+analyse_day_of_month.py - Gives csv file of day of month(per session)(for plotting graph)
+day_of_month.py - Gives csv file of day of month(Group by session,item)(used in extracting final feature)
+analyse_day_of_week.py - Gives csv file of day of week(per session)(for plotting graph)
+day_of_week.py - Gives csv file of day of week(Group by session,item)(used in extracting final feature)
+analyse_hour_of_day.py - Gives csv file of hour of day(per session)(for plotting graph)
+hour_of_day.py - Gives csv file of hour of day(Group by session,item)(used in extracting final feature)
+analyse-month_of_year.py - Gives csv file of month of year(per session)(for plotting graph)
+month_of_year.py - Gives csv file of month of year(Group by session,item)(used in extracting final feature)
+plot_analyse_session_duration.py - Plots the session duration graph
+plot_day_of_month.py - Plots day of month graph
+plot_day_of_week.py - Plots day of week graph
+plot_hour_of_day.py - Plots hour of day graph
+plot_month_of_year.py - Plots month of year graph
+analyse_session_item_duration.py - Gives duration (grouped by session,item)(used in extracting final feature)
+duration_to_int.py - Converts the session_item_duration to int 
+extract_features.py - Extracts all features directly from file(also contains categorization code)(not used because of memory issue)
+analyse_clicks_count.py - Gives clicks which a item gets in a session
+plot_item_popularity.py - Plots and extracts popular items which is purchased >=10 times, saves the item ids in file(top_popular_item_feature.csv)
+popular_items.py - Generates item_popularity_feature(this file will be used as popularity feature)
+analyse_buys_per_click.py - Gives a csv file containing item ids of top 25% items which have high buys/click ratio
+buys_per_click.py - Generates item_buys_per_click_feature(this file will be used as  feature) 
